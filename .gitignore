@@ -1,0 +1,18 @@
+# OSX
+.DS_Store
+
+# Linux
+.directory
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Hugo default output directory
+public/
+resources/
+/exampleSite/resources/
+.hugo_build.lock
+
