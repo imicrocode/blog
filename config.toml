@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://imicrocode.com"
 
 # theme
 # 主题
@@ -9,30 +9,30 @@ theme = "LoveIt"
 
 # website title
 # 网站标题
-title = "LoveIt"
+title = "Micro Share Hub"
 
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
 # 设置默认的语言 ["en", "zh-cn", "fr", "pl", ...]
-defaultContentLanguage = "en"
+defaultContentLanguage = "zh-cn"
 # language code ["en", "zh-CN", "fr", "pl", ...]
 # 网站语言, 仅在这里 CN 大写 ["en", "zh-CN", "fr", "pl", ...]
-languageCode = "en"
+languageCode = "zh-CN"
 # language name ["English", "简体中文", "Français", "Polski", ...]
 # 语言名称 ["English", "简体中文", "Français", "Polski", ...]
-languageName = "English"
+languageName = "简体中文"
 # whether to include Chinese/Japanese/Korean
 # 是否包括中日韩文字
-hasCJKLanguage = false
+hasCJKLanguage = true
 
 # default amount of posts in each pages
 # 默认每页列表显示的文章数目
-paginate = 12
+paginate = 6
 # google analytics code [UA-XXXXXXXX-X]
 # 谷歌分析代号 [UA-XXXXXXXX-X]
 googleAnalytics = ""
 # copyright description used only for seo schema
 # 版权描述，仅仅用于 SEO
-copyright = ""
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License."
 
 # whether to use robots.txt
 # 是否使用 robots.txt
@@ -51,8 +51,8 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 # Author config
 # 作者配置
 [author]
-  name = "xxxx"
-  email = ""
+  name = "imicrocode"
+  # email = "imicrocode@outlook.com"
   link = ""
 
 # Menu config
@@ -95,21 +95,21 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   defaultTheme = "auto"
   # public git repo url only then enableGitInfo is true
   # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
-  gitRepo = "https://github.com/dillonzq/LoveIt"
+  gitRepo = "https://github.com/imicrocode/blog"
   # which hash function used for SRI, when empty, no SRI is used
   # ["sha256", "sha384", "sha512", "md5"]
   # 哪种哈希函数用来 SRI, 为空时表示不使用 SRI
   # ["sha256", "sha384", "sha512", "md5"]
-  fingerprint = ""
+  fingerprint = "sha256"
   # date format
   # 日期格式
   dateFormat = "2006-01-02"
   # website title for Open Graph and Twitter Cards
   # 网站标题, 用于 Open Graph 和 Twitter Cards
-  title = "LoveIt"
+  title = "Micro Share Hub"
   # website description for RSS, SEO, Open Graph and Twitter Cards
   # 网站描述, 用于 RSS, SEO, Open Graph 和 Twitter Cards
-  description = "Hugo theme - LoveIt"
+  description = "Personal Tech Share"
   # website images for Open Graph and Twitter Cards
   # 网站图片, 用于 Open Graph 和 Twitter Cards
   images = ["/logo.png"]
@@ -131,10 +131,10 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       logo = ""
       # title name
       # 标题名称
-      name = "LoveIt"
+      name = "Micro Share Hub"
       # you can add extra information before the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
-      pre = "<i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i>"
+      pre = "<i class='fas fa-seedling' aria-hidden='true'></i>"
       # you can add extra information after the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
       post = ""
@@ -148,10 +148,10 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     enable = true
     # Custom content (HTML format is supported)
     # 自定义内容 (支持 HTML 格式)
-    custom = ""
+    custom = 'Powered by <a rel="license external nofollow noopener noreferrer" href="https://gohugo.io/" target="_blank">Hugo</a> | Theme is <a rel="license external nofollow noopener noreferrer" href="https://github.com/dillonzq/LoveIt" target="_blank"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>'
     # whether to show Hugo and theme info
     # 是否显示 Hugo 和主题信息
-    hugo = true
+    hugo = false
     # whether to show copyright info
     # 是否显示版权信息
     copyright = true
@@ -160,13 +160,13 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     author = true
     # site creation time
     # 网站创立年份
-    since = 2019
+    since = 2020
     # ICP info only in China (HTML format is supported)
     # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
     icp = ""
     # license info (HTML format is supported)
     # 许可协议信息 (支持 HTML 格式)
-    license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+    license= '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>'
 
   # Section (all posts) page config
   # Section (所有文章) 页面配置
@@ -199,10 +199,10 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
     # 当添加到 iOS 主屏幕或者 Android 启动器时的标题, 覆盖默认标题
-    title = "LoveIt"
+    title = "Micro Share Hub"
     # whether to omit favicon resource links
     # 是否隐藏网站图标资源链接
-    noFavicon = false
+    noFavicon = true
     # modern SVG favicon to use in place of older style .png and .ico files
     # 更现代的 SVG 网站图标, 可替代旧的 .png 和 .ico 文件
     svgFavicon = ""
@@ -222,7 +222,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     enable = true
     # type of search engine ["lunr", "algolia"]
     # 搜索引擎的类型 ["lunr", "algolia"]
-    type = "algolia"
+    type = "lunr"
     # max index length of the chunked content
     # 文章内容最长索引长度
     contentLength = 4000
@@ -234,7 +234,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     maxResultLength = 10
     # snippet length of the result
     # 结果内容片段长度
-    snippetLength = 30
+    snippetLength = 50
     # HTML tag name of the highlight part in results
     # 搜索结果中高亮部分的 HTML 标签
     highlightTag = "em"
@@ -267,7 +267,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       title = ""
       # subtitle shown in home page (HTML format is supported)
       # 主页显示的网站副标题 (允许 HTML 格式)
-      subtitle = "A Clean, Elegant but Advanced Hugo Theme"
+      subtitle = "分享和记录成长之路"
       # whether to use typeit animation for subtitle
       # 是否为副标题显示打字机动画
       typeit = true
@@ -373,10 +373,10 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     hiddenFromSearch = false
     # whether to enable twemoji
     # 是否使用 twemoji
-    twemoji = false
+    twemoji = true
     # whether to enable lightgallery
     # 是否使用 lightgallery
-    lightgallery = false
+    lightgallery = true
     # whether to enable the ruby extended syntax
     # 是否使用 ruby 扩展语法
     ruby = true
@@ -412,11 +412,11 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       copy = true
       # the maximum number of lines of displayed code by default
       # 默认展开显示的代码行数
-      maxShownLines = 50
+      maxShownLines = 30
     # KaTeX mathematical formulas config (KaTeX https://katex.org/)
     # KaTeX 数学公式配置 (KaTeX https://katex.org/)
     [params.page.math]
-      enable = false
+      enable = true
       # default inline delimiter is $ ... $ and \( ... \)
       # 默认行内定界符是 $ ... $ 和 \( ... \)
       inlineLeftDelimiter = ""
@@ -436,7 +436,8 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     [params.page.mapbox]
       # access token of Mapbox GL JS
       # Mapbox GL JS 的 access token
-      accessToken = "pk.eyJ1IjoiZGlsbG9uenEiLCJhIjoiY2s2czd2M2x3MDA0NjNmcGxmcjVrZmc2cyJ9.aSjv2BNuZUfARvxRYjSVZQ"
+      # accessToken = "pk.eyJ1IjoiZGlsbG9uenEiLCJhIjoiY2s2czd2M2x3MDA0NjNmcGxmcjVrZmc2cyJ9.aSjv2BNuZUfARvxRYjSVZQ"
+      accessToken = ""
       # style for the light theme
       # 浅色主题的地图样式
       lightStyle = "mapbox://styles/mapbox/light-v10?optimize=true"
@@ -461,16 +462,16 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       enable = true
       Twitter = true
       Facebook = true
-      Linkedin = false
+      Linkedin = true
       Whatsapp = false
       Pinterest = false
       Tumblr = false
-      HackerNews = true
+      HackerNews = false
       Reddit = false
       VK = false
       Buffer = false
       Xing = false
-      Line = true
+      Line = false
       Instapaper = false
       Pocket = false
       Flipboard = false
@@ -505,8 +506,8 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # Valine 评论系统设置 (https://github.com/xCss/Valine)
       [params.page.comment.valine]
         enable = true
-        appId = "QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI"
-        appKey = "WBmoGyJtbqUswvfLh6L8iEBr"
+        appId = "D8FYuqneRdnmrMALWupb3RBl-MdYXbMMI"
+        appKey = "5lBp9j27Jpd7TWwis5IdKpy6"
         placeholder = ""
         avatar = "mp"
         meta= ""
@@ -518,7 +519,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         recordIP = true
         highlight = true
         enableQQ = false
-        serverURLs = "https://leancloud.hugoloveit.com"
+        serverURLs = "https://imicrocode.com"
         # emoji data file name, default is "google.yml"
         # ["apple.yml", "google.yml", "facebook.yml", "twitter.yml"]
         # located in "themes/LoveIt/assets/lib/valine/emoji/" directory
@@ -607,7 +608,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # Publisher info
       # 出版者信息
       [params.page.seo.publisher]
-        name = "xxxx"
+        name = "imicrocode"
         logoUrl = "/images/avatar.png"
 
   # TypeIt config
@@ -624,7 +625,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     cursorChar = "|"
     # cursor duration after typing finishing (measured in milliseconds, "-1" means unlimited)
     # 打字结束之后光标的持续时间 (单位是毫秒, "-1" 代表无限大)
-    duration = -1
+    duration = 0
 
   # Site verification code for Google/Bing/Yandex/Pinterest/Baidu
   # 网站验证代码，用于 Google/Bing/Yandex/Pinterest/Baidu
@@ -699,10 +700,10 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   [params.compatibility]
     # whether to use Polyfill.io to be compatible with older browsers
     # 是否使用 Polyfill.io 来兼容旧式浏览器
-    polyfill = false
+    polyfill = true
     # whether to use object-fit-images to be compatible with older browsers
     # 是否使用 object-fit-images 来兼容旧式浏览器
-    objectFit = false
+    objectFit = true
 
 # Markup related configuration in Hugo
 # Hugo 解析文档的配置
@@ -789,64 +790,75 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 # 多语言
 [languages]
   [languages.en]
-    weight = 1
+    weight = 2
     languageCode = "en"
     languageName = "English"
-    hasCJKLanguage = false
+    hasCJKLanguage = true
     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
     [languages.en.menu]
       [[languages.en.menu.main]]
         weight = 1
+        identifier = "home"
+        # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
+        pre = "<i class='fa-solid fa-house'></i>"
+        # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
+        post = ""
+        name = "Home"
+        # 首页
+        url = "/"
+        title = "Home"
+      [[languages.en.menu.main]]
+        weight = 2
         identifier = "posts"
-        pre = ""
+        pre = "<i class='fas fa-archive'></i>"
         post = ""
         name = "Posts"
         url = "/posts/"
-        title = ""
+        title = "Posts"
       [[languages.en.menu.main]]
-        weight = 2
+        weight = 3
         identifier = "tags"
-        pre = ""
+        pre = "<i class='fas fa-tags'></i>"
         post = ""
         name = "Tags"
         url = "/tags/"
-        title = ""
+        title = "Tags"
       [[languages.en.menu.main]]
-        weight = 3
+        weight = 4
         identifier = "categories"
-        pre = ""
+        pre = "<i class='fa-solid fa-list'></i>"
         post = ""
         name = "Categories"
         url = "/categories/"
-        title = ""
+        title = "Categories"
+      # [[languages.en.menu.main]]
+        # weight = 5
+        # identifier = "documentation"
+        # pre = ""
+        # post = ""
+        # name = "Docs"
+        # url = "/categories/documentation/"
+        # title = ""
       [[languages.en.menu.main]]
-        weight = 4
-        identifier = "documentation"
-        pre = ""
-        post = ""
-        name = "Docs"
-        url = "/categories/documentation/"
-        title = ""
-      [[languages.en.menu.main]]
-        weight = 5
+        weight = 6
         identifier = "about"
-        pre = ""
+        pre = "<i class='fas fa-user-circle'></i>"
         post = ""
         name = "About"
         url = "/about/"
-        title = ""
-      [[languages.en.menu.main]]
-        weight = 6
-        identifier = "github"
-        pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
-        post = ""
-        name = ""
-        url = "https://github.com/dillonzq/LoveIt"
-        title = "GitHub"
+        title = "About"
+      # [[languages.en.menu.main]]
+        # weight = 7
+        # identifier = "github"
+        # pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
+        # post = ""
+        # name = ""
+        # url = "https://github.com/imicrocode/blog"
+        # title = "GitHub"
     [languages.en.params]
       [languages.en.params.search]
         enable = true
-        type = "algolia"
+        type = "lunr"
         contentLength = 4000
         placeholder = ""
         maxResultLength = 10
@@ -855,8 +867,8 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         absoluteURL = false
         [languages.en.params.search.algolia]
           index = "index.en"
-          appID = "PASDMWALPK"
-          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
+          appID = ""
+          searchKey = ""
       [languages.en.params.home]
         rss = 10
         [languages.en.params.home.profile]
@@ -864,26 +876,26 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
           gravatarEmail = ""
           avatarURL = "/images/avatar.png"
           title = ""
-          subtitle = "A Clean, Elegant but Advanced Hugo Theme"
+          subtitle = "Share and Record the path of growth"
           typeit = true
           social = true
           disclaimer = ""
       [languages.en.params.social]
-        GitHub = "xxxx"
-        Twitter = "xxxx"
-        Instagram = "xxxx"
-        Facebook = "xxxx"
-        Telegram = "xxxx"
-        Youtubelegacy = "xxxx"
-        Phone = "555-555-555"
-        Email = "xxxx@xxxx.com"
+        GitHub = "imicrocode"
+        # Twitter = "xxxx"
+        # Instagram = "xxxx"
+        # Facebook = "xxxx"
+        # Telegram = "xxxx"
+        # Youtubelegacy = "xxxx"
+        # Phone = ""
+        # Email = "imicrocode@outlook.com"
         RSS = true
-        [languages.en.params.social.Mastodon]
-          id = "@xxxx"
-          prefix = "https://mastodon.technology/"
+        # [languages.en.params.social.Mastodon]
+          # id = ""
+          # prefix = "https://mastodon.technology/"
 
   [languages.zh-cn]
-    weight = 2
+    weight = 1
     languageCode = "zh-CN"
     languageName = "简体中文"
     hasCJKLanguage = true
@@ -891,55 +903,66 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     [languages.zh-cn.menu]
       [[languages.zh-cn.menu.main]]
         weight = 1
-        identifier = "posts"
-        pre = ""
+        identifier = "home"
+        # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
+        pre = "<i class='fa-solid fa-house'></i>"
+        # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
         post = ""
-        name = "所有文章"
-        url = "/posts/"
-        title = ""
+        name = "首页"
+        # 首页
+        url = "/"
+        title = "首页"
       [[languages.zh-cn.menu.main]]
         weight = 2
+        identifier = "posts"
+        pre = "<i class='fas fa-archive'></i>"
+        post = ""
+        name = "文章"
+        url = "/posts/"
+        title = "文章"
+      [[languages.zh-cn.menu.main]]
+        weight = 3
         identifier = "tags"
-        pre = ""
+        pre = "<i class='fas fa-tags'></i>"
         post = ""
         name = "标签"
         url = "/tags/"
-        title = ""
+        title = "标签"
       [[languages.zh-cn.menu.main]]
-        weight = 3
+        weight = 4
         identifier = "categories"
-        pre = ""
+        pre = "<i class='fa-solid fa-list'></i>"
         post = ""
         name = "分类"
         url = "/categories/"
-        title = ""
+        title = "分类"
+      # [[languages.zh-cn.menu.main]]
+        # weight = 5
+        # identifier = "documentation"
+        # pre = ""
+        # name = "文档"
+        # url = "/categories/documentation/"
+        # title = ""
       [[languages.zh-cn.menu.main]]
-        weight = 4
-        identifier = "documentation"
-        pre = ""
-        name = "文档"
-        url = "/categories/documentation/"
-        title = ""
-      [[languages.zh-cn.menu.main]]
-        weight = 5
+        weight = 6
         identifier = "about"
-        pre = ""
+        pre = "<i class='fas fa-user-circle'></i>"
         post = ""
         name = "关于"
         url = "/about/"
-        title = ""
-      [[languages.zh-cn.menu.main]]
-        weight = 6
-        identifier = "github"
-        pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
-        post = ""
-        name = ""
-        url = "https://github.com/dillonzq/LoveIt"
-        title = "GitHub"
+        title = "关于"
+      # [[languages.zh-cn.menu.main]]
+        # weight = 7
+        # identifier = "github"
+        # pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
+        # post = ""
+        # name = ""
+        # url = "https://github.com/imicrocode/blog"
+        # title = "GitHub"
     [languages.zh-cn.params]
       [languages.zh-cn.params.search]
         enable = true
-        type = "algolia"
+        type = "lunr"
         contentLength = 4000
         placeholder = ""
         maxResultLength = 10
@@ -948,8 +971,8 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         absoluteURL = false
         [languages.zh-cn.params.search.algolia]
           index = "index.zh-cn"
-          appID = "PASDMWALPK"
-          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
+          appID = ""
+          searchKey = ""
       [languages.zh-cn.params.home]
         rss = 10
         [languages.zh-cn.params.home.profile]
@@ -957,18 +980,18 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
           gravatarEmail = ""
           avatarURL = "/images/avatar.png"
           title = ""
-          subtitle = "一个简洁、优雅且高效的 Hugo 主题"
+          subtitle = "分享和记录成长之路"
           typeit = true
           social = true
           disclaimer = ""
       [languages.zh-cn.params.social]
-        GitHub = "xxxx"
-        Weibo = "xxxx"
-        Steam = "xxxx"
-        Zhihu = "xxxx"
-        Douban = "xxxx"
-        Devto = "xxxx"
-        Bilibili = "xxxx"
-        Email = "xxxx@xxxx.com"
-        Phone = "555-555-555"
+        GitHub = "imicrocode"
+        # Weibo = "xxxx"
+        # Steam = "xxxx"
+        # Zhihu = "xxxx"
+        # Douban = "xxxx"
+        # Devto = "xxxx"
+        # Bilibili = "xxxx"
+        # Email = "imicrocode@outlook.com"
+        # Phone = ""
         RSS = true
