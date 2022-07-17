@@ -483,6 +483,10 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       Skype = false
       Trello = false
       Mix = false
+      Douban = true
+      QQ = true
+      Qzone = true
+      Qrcode = true
     # Comment config
     # 评论系统设置
     [params.page.comment]
@@ -599,6 +603,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         # located in "assets/" 位于 "assets/"
         # Or 或者
         # someJavascript = "https://cdn.example.com/some.js"
+        mysharerJs = "mysharer.js"
     # Page SEO config
     # 页面 SEO 配置
     [params.page.seo]
