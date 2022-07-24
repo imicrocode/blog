@@ -6,4 +6,5 @@
 
     # 事例
     hugo --gc -e production --baseUrl="https://imicrocode.github.io/" -d ../imicrocode.github.io
+    hugo --gc -e production -d ../imicrocode.github.io
 ```
